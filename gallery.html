@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Gallery - Bleachwave Tees</title>
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a href="/"
+        ><img class="logo" src="images/logo3.png" alt="Bleachwave Tees Logo"
+      /></a>
+      <img class="hamburger" src="images/hamburger.png" />
+      <ul class="list nav__list collapsible__content collapsible--expanded">
+        <li class="nav__item"><a href="index.html">Home</a></li>
+        <li class="nav__item"><a href="about.html">About</a></li>
+
+        <li class="nav__item"><a href="contact.html">Contact</a></li>
+        <li class="nav__item"><a href="faq.html">FAQ</a></li>
+
+        <li class="nav__item"><a href="project.html">Project</a></li>
+      </ul>
+    </nav>
+
+    <section class="gallery-section">
+      <h1>Gallery</h1>
+      <div class="gallery-grid">
+        <img src="images/amoeba.webp" alt="Bleach Tee 1" />
+        <img src="images/animefront.webp" alt="Bleach Tee 2" />
+        <img src="images/animeback.webp" alt="Bleach Tee 3" />
+        <img src="images/deadpool.webp" alt="Bleach Tee 4" />
+        <img src="images/fatalityfront.webp" alt="Bleach Tee 5" />
+        <img src="images/fatalityback.webp" alt="Bleach Tee 6" />
+        <img src="/images/deadpool2.webp" alt="Bleach Tee 1" />
+        <img src="images/horsemanfront.webp" alt="Bleach Tee 2" />
+        <img src="images/horsemanback.webp" alt="Bleach Tee 3" />
+        <img src="images/icecream.webp" alt="Bleach Tee 4" />
+        <img src="images/metallica.webp" alt="Bleach Tee 5" />
+        <img src="images/shroomyfront.webp" alt="Bleach Tee 6" />
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo3.png" alt="Bleachwave Tees Logo" />
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#"
+            ><img src="images/icon-instagram.png" alt="Instagram"
+          /></a>
+          <a href="#"><img src="images/icon-tiktok.png" alt="TikTok" /></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Bleachwave Tees. All rights reserved.</p>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".collapsible");
+
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("collapsible--expanded");
+      });
+    </script>
+  </body>
+</html>

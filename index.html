@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Bleachwave Tees</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a href="/"
+          ><img class="logo" src="images/logo3.png" alt="Bleachwave Tees Logo"
+        /></a>
+        <button class="hamburger" aria-label="Toggle navigation">
+          <img src="images/hamburger.png" alt="Menu" />
+        </button>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="about.html">About</a></li>
+          <li class="nav__item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav__item"><a href="contact.html">Contact</a></li>
+          <li class="nav__item"><a href="faq.html">FAQ</a></li>
+          <li class="nav__item"><a href="project.html">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__text">
+          <h1>Express Yourself with Bleachwave Tees</h1>
+          <p>
+            One-of-a-kind bleach-painted shirts designed to turn heads and spark
+            conversations.
+          </p>
+          <a href="gallery.html" class="hero__button">Browse Gallery</a>
+        </div>
+        <div class="hero__image">
+          <img src="images/amoeba.webp" alt="Sample bleach-painted shirt" />
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__image">
+          <img src="images/metallica.webp" alt="Bleachwave artist at work" />
+        </div>
+        <div class="about__text">
+          <h2>About Bleachwave Tees</h2>
+          <p>
+            At Bleachwave Tees, we specialize in hand-painted bleach designs on
+            dark fabric. Each shirt is one-of-a-kind — no two are ever alike.
+            Inspired by psychedelic art and alternative streetwear, our mission
+            is to help you stand out with bold, expressive fashion.
+          </p>
+          <a href="about.html" class="about__button">Learn More</a>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div class="video-column">
+          <h2>How the Tees Are Made</h2>
+          <div class="video-wrapper">
+            <video
+              controls
+              poster="images/thumbnail.png"
+              aria-label="Video showing how Bleachwave Tees are made"
+              title="How Bleachwave Tees Are Made"
+            >
+              <source src="media/Download.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="steps-column">
+          <h2>Order Process</h2>
+          <div class="step">
+            <img src="images/inspiration.png" alt="Choose Tee Icon" />
+            <p>
+              <strong>1. Choose Your Tee</strong><br />Think of any unique
+              design you would like on a tee or choose one from our gallery.
+            </p>
+          </div>
+          <div class="step">
+            <img src="images/browser.png" alt="Place Order Icon" />
+            <p>
+              <strong>2. Place Your Order</strong><br />Send us a description
+              through the contact form.
+            </p>
+          </div>
+          <div class="step">
+            <img src="images/tshirt.png" alt="Custom Made Icon" />
+            <p>
+              <strong>3. I Create It</strong><br />Each piece is made by hand
+              with care and style.
+            </p>
+          </div>
+          <div class="step">
+            <img src="images/box.png" alt="Pickup Icon" />
+            <p>
+              <strong>4. I ship it</strong><br />I ship you your amazing new
+              shirt!
+            </p>
+          </div>
+          <div class="cta-container">
+            <a href="contact.html" class="cta-button"
+              >Contact Us for Custom Orders</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo3.png" alt="Bleachwave Tees Logo" />
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="project.html">Project</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="images/tiktok.png" alt="TikTok" /></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Bleachwave Tees. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".collapsible");
+
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("collapsible--expanded");
+      });
+    </script>
+  </body>
+</html>

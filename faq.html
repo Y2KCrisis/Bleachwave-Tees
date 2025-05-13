@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>FAQ - Bleachwave Tees</title>
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a href="/"
+        ><img class="logo" src="images/logo3.png" alt="Bleachwave Tees Logo"
+      /></a>
+      <img class="hamburger" src="images/hamburger.png" />
+      <ul class="list nav__list collapsible__content collapsible--expanded">
+        <li class="nav__item"><a href="index.html">Home</a></li>
+        <li class="nav__item"><a href="about.html">About</a></li>
+        <li class="nav__item"><a href="gallery.html">Gallery</a></li>
+        <li class="nav__item"><a href="contact.html">Contact</a></li>
+        <li class="nav__item"><a href="faq.html">FAQ</a></li>
+        <li class="nav__item"><a href="project.html">Project</a></li>
+      </ul>
+    </nav>
+
+    <section class="faq-section">
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq-item">
+        <h3>How do I place a custom order?</h3>
+        <p>
+          Just head to our Contact page and send a description of your design
+          idea. We'll get back to you to confirm and start the process!
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I see examples before I order?</h3>
+        <p>
+          Yes! Check out the Gallery page for designs we've made in the past.
+          You can also request something similar.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Do you ship internationally?</h3>
+        <p>
+          At this time, we only ship within the United States. Stay tuned for
+          international shipping updates.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How long does it take to make a shirt?</h3>
+        <p>
+          Most shirts are made within 3–5 business days after we confirm the
+          order, depending on the design complexity.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What sizes are available?</h3>
+        <p>
+          We carry sizes from XS to XXL. If you're unsure, feel free to reach
+          out before placing your order!
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo3.png" alt="Bleachwave Tees Logo" />
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#"><img src="images/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="images/tiktok.png" alt="TikTok" /></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Bleachwave Tees. All rights reserved.</p>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".collapsible");
+
+      hamburger.addEventListener("click", () => {
+        nav.classList.toggle("collapsible--expanded");
+      });
+    </script>
+  </body>
+</html>
